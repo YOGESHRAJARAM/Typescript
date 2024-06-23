@@ -10,3 +10,5 @@ type User = [number,string]
 const newUser:User = [112,"hai"]
 
 newUser.push(34)
+
+export{}

@@ -8,4 +8,10 @@ interface User{
     getCoupon(couponname:string,value:number):number
 }
 
-const yogesh: User = {dbId:22, email:"h@h.com",userId:221,startTrail:()=>{return "trail started"},getCoupon:(name:"yogesh",value:10)=>{return value}}
+interface User {
+    githubToken: string
+}
+
+const yogesh: User = {dbId:22,githubToken:"gitpass", email:"h@h.com",userId:221,startTrail:()=>{return "trail started"},getCoupon:(name:"yogesh",value:10)=>{return value}}
+
+export{}
